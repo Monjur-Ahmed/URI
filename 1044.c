@@ -1,0 +1,19 @@
+#include<bits/stdc++.h>
+int main()
+{
+
+    int a,b;
+    scanf("%d %d",&a,&b);
+    if((b%a==0) ||(a%b==0))
+    {
+
+        printf("Sao Multiplos\n");
+    }
+    if((b%a!=0) ||(a%b!=0))
+    {
+          printf("Nao sao Multiplos\n");
+    }
+
+
+        return 0;
+}
